@@ -407,4 +407,31 @@ export const EN_MASKS: BuiltinMask[] = [
     createdAt: 1688899480413,
     hideContext: true,
   },
+  {
+    avatar: "1f4dd",
+    name: "Google Gemini Pro",
+    context: [
+      {
+        id: "gemini",
+        role: "system",
+        content:
+          'You are a helpful AI Assistant',
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gemini-pro",
+      temperature: 0.5,
+      max_tokens: 10000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 2000,
+    },
+    lang: "en",
+    builtin: true,
+    createdAt: 1688899480413,
+    hideContext: true,
+  },
 ];
