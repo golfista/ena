@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           Ena
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          The non-official AI of cantv!
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
