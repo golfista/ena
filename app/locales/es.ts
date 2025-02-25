@@ -21,14 +21,14 @@ const es: PartialLocaleType = {
     Title: "Se requiere contraseña",
     Tips: "El administrador ha habilitado la verificación de contraseña. Introduce el código de acceso a continuación",
     SubTips: "O ingresa tu clave API de OpenAI o Google",
-    Input: "Introduce el código de acceso aquí",
+    Input: "Introduce el código de acceso aquí, puedes obtenerlo en discord.gg/cantv",
     Confirm: "Confirmar",
     Later: "Más tarde",
     Return: "Regresar",
     SaasTips:
       "La configuración es demasiado complicada, quiero usarlo de inmediato",
     TopTips:
-      "🥳 Oferta de lanzamiento de NextChat AI, desbloquea OpenAI o1, GPT-4o, Claude-3.5 y los últimos grandes modelos",
+      "🥳 Oferta de lanzamiento de Ena AI, desbloquea OpenAI o1, GPT-4o, Claude-3.5 y los últimos grandes modelos",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} conversaciones`,
@@ -306,10 +306,10 @@ const es: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "Use NextChat AI",
+        Title: "Use Ena AI",
         Label: "(The most cost-effective solution)",
         SubTitle:
-          "Officially maintained by NextChat, zero configuration ready to use, supports the latest large models like OpenAI o1, GPT-4o, and Claude-3.5",
+          "Officially maintained by Ena, zero configuration ready to use, supports the latest large models like OpenAI o1, GPT-4o, and Claude-3.5",
         ChatNow: "Chat Now",
       },
 

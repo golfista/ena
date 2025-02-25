@@ -21,14 +21,14 @@ const en: LocaleType = {
   Auth: {
     Return: "Return",
     Title: "Need Access Code",
-    Tips: "Please enter access code below",
+    Tips: "Please enter access code below, you can get it from discord.gg/cantv",
     SubTips: "Or enter your OpenAI or Google API Key",
     Input: "access code",
     Confirm: "Confirm",
     Later: "Later",
     SaasTips: "Too Complex, Use Immediately Now",
     TopTips:
-      "🥳 NextChat AI launch promotion: Instantly unlock the latest models like OpenAI o1, GPT-4o, Claude-3.5!",
+      "🥳 Ena AI launch promotion: Instantly unlock the latest models like OpenAI o1, GPT-4o, Claude-3.5!",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
@@ -315,10 +315,10 @@ const en: LocaleType = {
     },
     Access: {
       SaasStart: {
-        Title: "Use NextChat AI",
+        Title: "Use Ena AI",
         Label: " (Most Cost-Effective Option)",
         SubTitle:
-          "Maintained by NextChat, zero setup needed, unlock OpenAI o1, GPT-4o," +
+          "Maintained by Ena, zero setup needed, unlock OpenAI o1, GPT-4o," +
           " Claude-3.5 and more",
         ChatNow: "Start Now",
       },

@@ -1,7 +1,7 @@
 export const OWNER = "ChatGPTNextWeb";
 export const REPO = "ChatGPT-Next-Web";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
-export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/NextChat-Awesome-Plugins`;
+export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/Ena-Awesome-Plugins`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const RELEASE_URL = `${REPO_URL}/releases`;
@@ -355,7 +355,7 @@ You are an AI assistant with access to system tools. Your role is to help users 
   "params": {
     "name": "write_file",
     "arguments": {
-      "path": "/Users/river/dev/nextchat/test/joke.txt",
+      "path": "/Users/river/dev/Ena/test/joke.txt",
       "content": "为什么数学书总是感到忧伤？因为它有太多的问题。"
     }
   }
@@ -368,7 +368,7 @@ You are an AI assistant with access to system tools. Your role is to help users 
    {
       "method": "write_file",
       "params": {
-        "path": "NextChat_Information.txt",
+        "path": "Ena_Information.txt",
         "content": "1"
     }
    }
@@ -816,5 +816,5 @@ export const internalAllowedWebDavEndpoints = [
 
 export const DEFAULT_GA_ID = "G-89WN60ZK2E";
 
-export const SAAS_CHAT_URL = "https://nextchat.club";
-export const SAAS_CHAT_UTM_URL = "https://nextchat.club?utm=github";
+export const SAAS_CHAT_URL = "https://Ena.club";
+export const SAAS_CHAT_UTM_URL = "https://Ena.club?utm=github";
